@@ -37,6 +37,7 @@ const team = [
   { name: 'Abdullah Mohamed', role: 'Backend Developer', icon: Database },
   { name: 'Mohamed Abdelgelil', role: 'Research Engineer', icon: Microscope },
   { name: 'Mohamed ElDeeb', role: 'Data Analyst', icon: BarChart3 },
+  { name: 'Reda Abdelmajeed', role: 'Software Engineer', icon: Code2 },
 ];
 
 export default function Home() {
