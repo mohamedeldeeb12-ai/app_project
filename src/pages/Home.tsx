@@ -30,14 +30,14 @@ const featureBadges = [
 ];
 
 const team = [
-  { name: 'Ahmed Fathy', role: 'AI Engineer', icon: BrainCircuit },
-  { name: 'Ahmed Essam', role: 'Machine Learning Engineer', icon: Cpu },
-  { name: 'Alaa Ahmed', role: 'Embedded Systems Engineer', icon: Wrench },
-  { name: 'Ibrahim Khalifa', role: 'Frontend Developer', icon: Code2 },
-  { name: 'Abdullah Mohamed', role: 'Backend Developer', icon: Database },
-  { name: 'Mohamed Abdelgelil', role: 'Research Engineer', icon: Microscope },
-  { name: 'Mohamed ElDeeb', role: 'Data Analyst', icon: BarChart3 },
-  { name: 'Reda Abdelmajeed', role: 'Software Engineer', icon: Code2 },
+  { name: 'Ahmed Fathy', image: '/team/ahmed-fathy.jpg' },
+  { name: 'Ahmed Essam', image: '/team/ahmed-essam.jpg' },
+  { name: 'Alaa Ahmed', image: '/team/alaa-ahmed.jpg' },
+  { name: 'Ibrahim Khalifa', image: '/team/ibrahim-khalifa.jpg' },
+  { name: 'Abdullah Mohamed', image: '/team/abdullah-mohamed.jpg' },
+  { name: 'Mohamed Abdelgelil', image: '/team/mohamed-abdelgelil.jpg' },
+  { name: 'Mohamed ElDeeb', image: '/team/mohamed-eldeeb.jpg' },
+  { name: 'Reda Abdelmajeed', image: '/team/reda-abdelmajeed.jpg' },
 ];
 
 export default function Home() {
@@ -63,17 +63,21 @@ export default function Home() {
         AI Healthcare · Graduation Project 2026
       </span>
 
-      <h1 className="mt-6 font-display text-5xl sm:text-6xl lg:text-7xl font-800 tracking-tight text-ink-900 text-balance leading-[1.05]">
-        Wearable <span className="gradient-text">Antenna</span>
-      </h1>
+      <h1 className="mt-6 max-w-7xl font-display text-3xl sm:text-4xl lg:text-5xl font-800 tracking-tight leading-[1.2]">
+  <span className="gradient-text">
+    Design and Analysis of Wearable Antennas for Biomedical
+    <br />
+    Monitoring System using Machine Learning
+  </span>
+</h1>
 
       <p className="mt-5 font-display text-lg sm:text-xl font-600 text-ink-700 text-balance">
-        AI-Powered Medical Diagnosis Using Wearable Antenna Technology
-      </p>
+  Design and Analysis of Wearable Antennas for Biomedical Monitoring System
+</p>
 
-      <p className="mt-4 max-w-xl text-base leading-relaxed text-ink-500">
-        Our system captures bio-signals from a wearable antenna and analyses them using deep learning models to detect diseases accurately — bringing hospital-grade diagnostics to your wrist.
-      </p>
+      <p className="mt-4 max-w-2xl text-base leading-relaxed text-ink-500">
+  This project presents the design, analysis, simulation, fabrication, and experimental validation of innovative textile-based wearable microwave sensors for biomedical applications, focusing on non-invasive glucose monitoring and bone fracture detection. The proposed system combines wearable antenna technology with machine learning to provide accurate, reliable, and safe diagnosis.
+</p>
 
       <div className="mt-8 flex flex-wrap items-center gap-3">
         <Button
@@ -203,8 +207,8 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <SectionTitle
             eyebrow="Meet Our Team"
-            title={<>The Minds Behind Wearable Antenna</>}
-            subtitle="A dedicated team of engineering students building the future of non-invasive AI diagnostics."
+            title={<>Meet Our Project Team</>}
+            subtitle=" A dedicated team of engineering students working together to develop innovative wearable antenna technologies for biomedical monitoring applications."
           />
 
           <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
@@ -220,7 +224,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-5 sm:px-8 lg:px-12">
           <SectionTitle
             eyebrow="Academic Supervisor"
-            title={<>Under Expert Guidance</>}
+            title={<>Under Academic Supervision</>}
           />
 
           <motion.div
@@ -230,17 +234,19 @@ export default function Home() {
             transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
             className="mx-auto mt-10 max-w-2xl"
           >
-            <div className="group relative overflow-hidden rounded-4xl glass p-8 shadow-glass-lg transition-all hover:-translate-y-1">
-              <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-primary-200/40 blur-3xl transition-opacity group-hover:opacity-70" />
+           <div className="group relative overflow-hidden rounded-4xl glass p-8 shadow-glass-lg transition-all hover:-translate-y-1">
+  <div className="absolute -right-16 -top-16 h-44 w-44 rounded-full bg-primary-200/40 blur-3xl transition-opacity group-hover:opacity-70" />
 
-              <div className="relative flex flex-col items-center text-center sm:flex-row sm:text-left">
-                <div className="relative">
-                  <div className="absolute -inset-3 -z-10 rounded-full bg-gradient-to-br from-primary-200/60 to-accent-200/50 blur-xl" />
+  <div className="relative flex flex-col items-center text-center sm:flex-row sm:text-left">
+    <div className="relative">
+      <div className="absolute -inset-3 -z-10 rounded-full bg-gradient-to-br from-primary-200/60 to-accent-200/50 blur-xl" />
 
-                  <div className="grid h-24 w-24 place-items-center rounded-full bg-gradient-to-br from-primary-500 to-accent-500 shadow-glow">
-                    <GraduationCap className="h-11 w-11 text-white" strokeWidth={1.6} />
-                  </div>
-                </div>
+      <img
+        src="/supervisor/azza-el-naggar.jpg"
+        alt="Dr. Azza El-Naggar"
+        className="h-28 w-28 rounded-full object-cover ring-4 ring-white shadow-glow"
+      />
+    </div>
 
                 <div className="mt-5 sm:mt-0 sm:ml-6">
                   <span className="inline-flex items-center gap-2 rounded-full bg-primary-50 px-3 py-1 text-xs font-600 uppercase tracking-wider text-primary-600">
