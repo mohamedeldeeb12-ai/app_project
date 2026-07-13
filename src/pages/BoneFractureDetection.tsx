@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export default function BoneFractureDetection() {
   useEffect(() => {
     window.location.href =
-      'https://bone-tenna-ai-p7e7hvqm4rgaavwffabpcz.streamlit.app/';
+      'https://bone-ai-3qb8x6ku7wgmhs4qmpidvj.streamlit.app/';
   }, []);
 
   return (
@@ -17,7 +17,7 @@ export default function BoneFractureDetection() {
         fontWeight: 'bold',
       }}
     >
-      Redirecting to Bone-Tenna AI...
+      Redirecting to Bone AI...
     </div>
   );
 }

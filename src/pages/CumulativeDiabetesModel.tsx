@@ -2,8 +2,8 @@ import { useEffect } from 'react';
 
 export default function CumulativeDiabetesModel() {
   useEffect(() => {
-    window.location.href =
-      'https://bone-tenna-ai-tz3ybchntdrxrc5rqnk5ug.streamlit.app/';
+   window.location.href =
+  'https://diabetes-ai-7f6tv2q5geyuq2tcjuslkh.streamlit.app/';
   }, []);
 
   return (

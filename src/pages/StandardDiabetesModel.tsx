@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 export default function StandardDiabetesModel() {
   useEffect(() => {
     window.location.href =
-      'https://bone-tenna-ai-ezlgkzypexj7fv7cragkmv.streamlit.app/';
+      'https://mteyjfvrqnhnlmu5hqmhgh.streamlit.app/';
   }, []);
 
   return (
